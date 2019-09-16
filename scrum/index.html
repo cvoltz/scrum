@@ -1,0 +1,143 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>Introduction to the Scrum Agile Framework</title><meta charset="UTF-8"></meta><meta name="generator" content="Hovercraft! 1.0 http://regebro.github.com/hovercraft"></meta><meta name="author" content="Christopher Voltz"></meta><meta name="description" content="An introduction to the Scrum agile framework for STHS."></meta><meta name="keywords" content="presentation, scrum"></meta><link rel="stylesheet" href="css/hovercraft.css" media="all"></link><link rel="stylesheet" href="css/impressConsole.css" media="all"></link><link rel="stylesheet" href="css/highlight.css" media="all"></link><link rel="stylesheet" href="scrum.css" media="all"></link><script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        showProcessingMessages: false,
+        messageStyle: "none",
+        TeX : { extensions : ['color.js'] }
+      });
+    </script></head><body class="impress-not-supported"><div id="impress"><div class="step step-level-1" step="0" id="title" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1"><h1 id="introduction-to-the-scrum-agile-framework">Introduction to the Scrum Agile Framework</h1><p><a href="https://www.linkedin.com/in/christopher-voltz/">Christopher Voltz</a> <br>
+Master Engineer <br>
+Hewlett Packard Enterprise <br></p><p>September 16, 2019</p><div class="notes"><p>Good morning gentleman. I'm a master engineer at Hewlett Packard Enterprise in
+the high performance computing storage group.  I've been using the scrum agile
+framework for many years to develop software so Mrs. Warnes asked me to come
+and explain how you can use it when developing your software.</p></div></div><div class="step step-level-1" step="1" id="presentation" data-x="2000" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1" data-y="0" data-z="0"><h1 id="presentation">Presentation</h1><p>This presentation is available on my website at:
+<a href="https://voltz.ws/sths/scrum">https://voltz.ws/sths/scrum</a></p><p>The source for the presentation is available on GitHub at:
+<a href="https://github.com/cvoltz/scrum">https://github.com/cvoltz/scrum</a></p><p>Hyperlinks are not underlined but show up in blue. If you hover over a
+hyperlink, it will be underlined.</p><div class="notes"><p>Just a quick side note. This presentation is available on my website and the
+source is available on GitHub.</p><p>Note that while I show the URL here, in most of the presentation, when
+items are hyperlinked, the URL isn't shown. The link is displayed in blue and
+when your cursor hovers over it, the link will become underlined.</p></div></div><div class="step step-level-1" step="2" id="process" data-x="0" data-y="1100" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1" data-z="0"><img src="images/scrum_process_afa_5000.jpg"></img><div class="notes"><p>This is an overview of the entire Scrum framework. Scrum is a lightweight,
+iterative, and incremental framework for managing complex work. It does not
+follow the traditional sequential approach of the waterfall model Mrs. Warnes
+explained to you last week. It attempts to resolve the issues with the
+waterfall development model by recognizing that customers change their mind
+about about what they want or need and that there will be unpredictable
+challenges during development. While we talking about scrum in the context of
+software development, scrum can (and is) used outside of software development.
+Also, scrum is only one of many agile frameworks but it is one of the most
+popular.</p><p>The people shown in the diagram represent the different roles in scrum.</p></div></div><div class="step step-level-1" step="3" id="roles" data-x="2000" data-y="1100" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1" data-z="0"><h1 id="scrum-roles">Scrum Roles</h1><ul><li><strong>Product Owner</strong>: Represents the business stakeholders.<ul><li>Adds items to the product backlog.</li><li>Prioritizes the product backlog.</li></ul></li><li><strong>Scrum Master</strong>: Servant-leader.<ul><li>Removes impediments.</li><li>Facilitates team events.</li><li>Buffer between the team and distracting influences.</li><li>Coaches team on Scrum practices.</li></ul></li><li><strong>Development Team</strong>: People who carry out the tasks to build increments of
+value.<ul><li>Not just programmers&#x2014;architects, UI/UX designers, testers, etc.</li><li>Self organizing.</li></ul></li></ul><div class="notes"><p>The product owner is the person who represents the business which needs the
+software. He or she is responsible for working with the business people to
+determine things like funding, schedule, and priorities and communicates the
+scrum team's status to management. The product owner is the one responsible
+for maintaining the product backlog. The product backlog is a prioritized list
+of work to be done and is the list of product requirements.</p><p>The scrum master is a person who helps the scrum team to complete their work
+and follow the scrum process. The scrum master is not a manager in charge of
+the development team but a leader who is a servant to the team. The scrum
+master role is usually handled by a program or project manager who has been
+certified in the scrum process. Their job is to remove impediments (things
+that are preventing the team from completing their work). They also
+schedule the various team events like the sprint planning meeting, daily
+standup meetings, sprint demo, and sprint retrospective.</p><p>The development team are the people who actually do the tasks required to
+create increments of functionality which add value to the product. An
+important thing to note is that the development team is not just the
+programmers on the team but it includes architects (who design the structure
+of the software), the UI/UX designers (who design the user interface and user
+experience of the software), testers, and others who contribute to the
+product.</p></div></div><div class="step step-level-1" step="4" id="process2" data-x="4000" data-y="1100" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1" data-z="0"><img src="images/scrum_process_afa_5000.jpg"></img><div class="notes"><p>At the beginning of the project, the scrum master will work with the product
+owner to create the product backlog and will work with the development team to
+provide an estimate, in story points, of the complexity of each item (called a
+story) in the product backlog so the product owner will be able to better
+prioritize the stories. The development team uses a process called planning
+poker to come up with an estimate that everyone in the team agrees with. Story
+point values can be selected in many ways but a Fibonacci sequence is commonly
+used (so values like 1, 2, 3, 5, 8, and 13 are commonly used). Usually larger
+numbers are indications that the feature is too complex and needs to be broken
+down into smaller features.</p><p>One of the key features of scrum is that work is done in small increments of
+time called a sprint. The actual length of time used for the sprint varies
+based on the type of software being developed and the industry it is in.
+An e-commerce site might have weekly sprints while safety critical software
+may have sprints which last months. Longer sprints are less desirable since
+they increase the time for feedback which allows the team to ensure they are
+building the software the business needs. The idea is that at the end of each
+sprint, the team will have written and tested some new functionality to the
+product.</p><p>At the start of a sprint, the product owner, the scrum master, and the
+development team will meet in a sprint planning meeting. In that meeting, the
+development team will pull features from the top of the product backlog into
+the sprint backlog and decompose them into small units of work called tasks
+which can be completed within the sprint. The development team will estimate
+the amount of hours it will take to complete a task and will continue to pull
+items off the product backlog so long as they believe they can get the work
+done within the sprint. This is the time for the development team to ask the
+product owner any questions necessary to ensure they understand what is
+required to complete a story.</p><p>Once the sprint starts, members in the development team will work on tasks
+they are capable of completing. The individuals in the team decide which tasks
+they want to work on. The scrum master and the product owner don't have any
+say in this. Each day, the entire teams meets together in standup meeting,
+which is a short meeting (usually less than 15 minutes) where everyone is
+standing and, one by one, each of the developers indicates what they did
+yesterday, what they plan to do today, and if they have any impediments (i.e.,
+things preventing them from being able to work). The scrum master records all
+of the impediments so he or she can work to resolve them, outside of the
+meeting. Selecting who goes first is often done by who shows up in the room
+last. Note that it is important that the meeting starts on time each day.
+Sometimes, there are penalties for being late. It depends on the team. The
+idea of the standup meeting is for the product owner to get a status update on
+how the sprint is progressing, let the scrum master know of any impediments
+that are slowing the sprint down, allow engineers to know if someone needs
+help with a task, and to provide some accountability to your peers.</p><p>When all of the tasks for a given story are completed, the development team
+will mark the story as completed. Tasks for a story should include writing
+unit and acceptance tests to ensure the feature is working properly. Teams
+may work multiple stories in parallel or may work on all of the tasks for a
+single story in parallel. It is up to the team. The burn down or burn up chart
+shows the progress of the development team in completing tasks and stories.
+The chart is usually updated in real-time and made publicly available so
+everyone can see how the sprint is going.</p><p>At the end of the sprint, the development team demonstrates the new
+functionality to the product owner in a sprint review. The product owner will
+accept any stories which they agree are finished and will reject any stories
+which they do not agree are finished. This is one of the reasons it is
+important to agree in the sprint planning meeting on what done means for a
+story. Rejected stories go back onto the product backlog. While a sprint
+should finish all stories on the sprint backlog, it sometimes happens, for
+various reasons, that not all stories are completed. Such a sprint is called
+a failed sprint.</p><p>It is important to note that the product owner can decide to release the
+software after the sprint is completed or they can decide to wait until more
+functionality has been added in future sprints. Completed stories should
+always be production ready.</p><p>After the sprint review, the team gets together in a sprint retrospective and
+discusses what went well during the sprint, what didn't go well, and what the
+plans are to try and improve the process. Typically there are 3 items of each
+but there is no prescribed number. The important thing here is to continually
+be improving the process so future sprints will go better. Example items to
+improve can be things like training for the team on a tool or technology or
+getting equipment that is needed to improve productivity.</p><p>The sprint cycle then repeats itself.</p><p>Note that during a sprint, the product owner and scrum master should be
+working on adding new items to the backlog and reprioritizing items. When new
+stories are added, the development team needs to do the planning poker to
+estimate the complexity of the story.</p></div></div><div class="step step-level-1" step="5" id="manifesto" data-x="0" data-y="2200" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1" data-z="0"><h1 id="manifesto-for-agile-software-development">Manifesto for Agile Software Development</h1><p>We are uncovering better ways of developing software by doing it and helping
+others do it.  Through this work we have come to value:</p><p><strong>Individuals and interactions</strong> over processes and tools <br>
+<strong>Working software</strong> over comprehensive documentation <br>
+<strong>Customer collaboration</strong> over contract negotiation <br>
+<strong>Responding to change</strong> over following a plan <br></p><p>That is, while there is value in the items on the right, we value the items on
+the left more.</p><table cellpadding="0" cellspacing="0"><tbody><tr><td><p>Kent Beck</p></td><td><p>James Grenning</p></td><td><p>Robert C. Martin</p></td></tr><tr><td><p>Mike Beedle</p></td><td><p>Jim Highsmith</p></td><td><p>Steve Mellor</p></td></tr><tr><td><p>Arie van Bennekum</p></td><td><p>Andrew Hunt</p></td><td><p>Ken Schwaber</p></td></tr><tr><td><p>Alistair Cockburn</p></td><td><p>Ron Jeffries</p></td><td><p>Jeff Sutherland</p></td></tr><tr><td><p>Ward Cunningham</p></td><td><p>Jon Kern</p></td><td><p>Dave Thomas</p></td></tr><tr><td><p>Martin Fowler</p></td><td><p>Brian Marick</p></td><td></td></tr></tbody></table><p>&#xA9; 2001, the above authors this declaration may be freely copied in any form,
+but only in its entirety through this notice. <br>
+<a href="https://agilemanifesto.org/">https://agilemanifesto.org/</a></p><div class="notes"><p>Unfortunately, we don't have the time to go over the agile manifesto or the
+principles behind the agile manifesto but I have included slides on both
+topics that you can read at your leisure. The important thing to note is how
+each item in the agile manifesto was created to address a specific issue with
+the waterfall model which resulted in delays in releasing quality software.
+The principles behind the agile manifesto go into more detail about how to
+achieve the goals of the agile manifesto and why the principle exists.</p><p>Thank you for your attention. Any questions?</p></div></div><div class="step step-level-1" step="6" id="principles1" data-x="2000" data-y="2200" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1" data-z="0"><h1 id="principles-behind-the-agile-manifesto">Principles behind the Agile Manifesto</h1><p>Our highest priority is to satisfy the customer through early and continuous
+delivery of valuable software.</p><p>Welcome changing requirements, even late in development. Agile processes
+harness change for the customer's competitive advantage.</p><p>Deliver working software frequently, from a couple of weeks to a couple of
+months, with a preference to the shorter timescale.</p><p>Business people and developers must work together daily throughout the project.</p></div><div class="step step-level-1" step="7" id="principles2" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1" data-x="4000" data-y="2200" data-z="0"><h1 id="id1">Principles behind the Agile Manifesto</h1><p>Build projects around motivated individuals.  Give them the environment and
+support they need, and trust them to get the job done.</p><p>The most efficient and effective method of conveying information to and within
+a development team is face-to-face conversation.</p><p>Working software is the primary measure of progress.</p><p>Agile processes promote sustainable development.  The sponsors, developers, and
+users should be able to maintain a constant pace indefinitely.</p></div><div class="step step-level-1" step="8" id="principles3" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1" data-x="6000" data-y="2200" data-z="0"><h1 id="id2">Principles behind the Agile Manifesto</h1><p>Continuous attention to technical excellence and good design enhances agility.</p><p>Simplicity--the art of maximizing the amount of work not done--is essential.</p><p>The best architectures, requirements, and designs emerge from self-organizing
+teams.</p><p>At regular intervals, the team reflects on how to become more effective, then
+tunes and adjusts its behavior accordingly.</p></div><div class="step step-level-1" step="9" id="hovercraft" data-x="0" data-y="3300" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1" data-z="0"><h1 id="hovercraft">Hovercraft</h1><p>The tool I used to create my presentation is called <a href="https://github.com/regebro/hovercraft">Hovercraft</a>. A presentation
+on Hovercraft is available <a href="http://regebro.github.io/hovercraft/#/step-1">here</a>.  Hit the space-bar or right arrow to advance
+to the next slide. You can press <tt>h</tt> to bring up the help menu. Press <tt>p</tt>
+to display the presenter popup which shows the presenter notes.</p><p>Hovercraft is a combination of <a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>, <a href="http://github.com/bartaz/impress.js">impress.js</a>, and
+<a href="https://github.com/regebro/impress-console">impressConsole.js</a>, with some positioning enhancements. Hovercraft
+documentation is available <a href="http://regebro.github.io/hovercraft/#/step-1">here</a>. reStructuredText is a plaintext markup
+language which generates HTML (and LaTex, and man-pages, and XML). It is part
+of <a href="http://docutils.sourceforge.net">Docutils</a>. With Hovercraft, one can generate an HTML presentation with just
+some simple markup text.</p></div><div class="step step-level-1" step="10" id="toc" data-x="3000" data-y="2000" data-z="-1" data-scale="5" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0"></div></div><div id="hovercraft-help" class="hide"><table><tr><th>Space</th><td>Forward</td></tr><tr><th>Right, Down, Page Down</th><td>Next slide</td></tr><tr><th>Left, Up, Page Up</th><td>Previous slide</td></tr><tr><th>G</th><td>Go to slide number</td></tr><tr><th>P</th><td>Open presenter console</td></tr><tr><th>H</th><td>Toggle this help</td></tr></table></div><script type="text/javascript" src="js/impress.js"></script><script type="text/javascript" src="js/impressConsole.js"></script><script type="text/javascript" src="js/hovercraft.js"></script></body></html>

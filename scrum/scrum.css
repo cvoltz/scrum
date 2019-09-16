@@ -1,0 +1,177 @@
+/* Copyright (C) 2019 Christopher Voltz */
+
+/*
+ * For 1680x1050
+
+.step {
+  width: 1600px;
+  height: 1000px;
+}
+
+body {
+  font-size: 48px;
+}
+ */
+
+/*
+ * For 1920x1080
+ */
+
+.step {
+  width: 1850px;
+  height: 1000px;
+}
+
+body {
+  font-size: 48px;
+}
+
+@font-face {
+  font-family: 'Droid Serif', serif
+  src: url(fonts/DroidSerif.ttf)
+}
+
+@font-face {
+  font-family: 'Source Code Pro', ;
+  src: url(fonts/SourceCodePro-Regular.ttf);
+}
+
+body {
+  font-family: Droid Serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0em 0em;
+  text-align: center;
+}
+
+img {
+  border: 0px solid black;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 30px auto auto auto;
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 153);
+  padding: 0px 5px;
+  text-align: left;
+}
+
+th p,
+td p {
+  margin: 5px 0px 8px 0px;
+}
+
+ul > li {
+  line-height: 1.3em;
+  list-style-type: square;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* Title page */
+
+div#title {
+  text-align: center;
+}
+
+div#title h1 {
+  font-size: 1.5em;
+  line-height: 1.0em;
+  padding-top: 2em;
+}
+
+div#title p:first-of-type {
+  padding-top: 2em;
+}
+
+
+/* Presentation page */
+
+div#presentation a {
+  display: block;
+  margin-left: 2em;
+}
+
+
+/* Process page */
+
+div#process,
+div#process2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+div#process img,
+div#process2 img {
+  height: 100%;
+}
+
+
+/* Manifesto page */
+
+#manifesto h1 {
+  line-height: 1em;
+}
+
+#manifesto p {
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 1.2em;
+}
+
+/* agile pillars */
+#manifesto p:nth-of-type(2) {
+  text-align: center;
+}
+
+#manifesto table {
+  margin-top: -1.5em;
+  padding-top: 0em;
+}
+
+#manifesto table,
+#manifesto tr,
+#manifesto td {
+  border: none;
+  font-size: 80%;
+}
+
+#manifesto td p {
+  line-height: 1em;
+  margin: 0px 0px;
+  padding: 0.1em 2em;
+}
+
+/* copyright notice */
+#manifesto p:nth-of-type(4) {
+  font-size: 40%;
+  text-align: center;
+}
