@@ -245,6 +245,28 @@ Scrum Roles
 
 ----
 
+:id: links
+:data-x: r2000
+:data-y: r0
+
+Links
+=====
+
+* `What is Scrum <https://www.atlassian.com/agile/scrum>`_
+* `Kunagi <http://kunagi.org/>`_
+
+  * `Dashboard <http://kunagi.org/screenshots/dashboard.png>`_
+  * `Product backlog <http://kunagi.org/screenshots/productbacklog.png>`_
+  * `Sprint Whiteboard <http://kunagi.org/screenshots/whiteboard.png>`_
+
+.. note::
+
+  Here are some useful links. The first one is a good description of scrum. The 
+  second is the tool I use for managing our sprints. It is open source so you
+  should be able to use it.  Here are some snapshots of what it looks like.
+
+----
+
 :id: manifesto
 :data-x: 0
 :data-y: r1100
