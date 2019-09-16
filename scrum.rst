@@ -397,7 +397,10 @@ some simple markup text.
 
 :id: toc
 :data-x: 3000
-:data-y: 2000
+:data-y: 1700
 :data-z: -1
 :data-rotate: 0
 :data-scale: 5
+
+.. :data-y: 2000 full screen
+   :data-y: 1700 windowed

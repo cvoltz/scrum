@@ -7,23 +7,24 @@
   width: 1600px;
   height: 1000px;
 }
-
-body {
-  font-size: 48px;
-}
  */
 
 /*
- * For 1920x1080
- */
+ * For 1920x1080, full screen
 
 .step {
   width: 1850px;
   height: 1000px;
 }
+ */
 
-body {
-  font-size: 48px;
+/*
+ * For 1920x1080, windowed
+ */
+
+.step {
+  width: 1850px;
+  height: 900px;
 }
 
 @font-face {
@@ -38,6 +39,7 @@ body {
 
 body {
   font-family: Droid Serif;
+  font-size: 48px;
   -webkit-font-smoothing: antialiased;
 }
 
