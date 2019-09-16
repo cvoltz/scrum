@@ -24,7 +24,7 @@ end
 
 desc "Publish presentation"
 task :sync do
-  sh "rsync -avzP --delete Rakefile #{PRESENTATION}{.rst,/} voyager:/var/www/html/sths/#{PRESENTATION}/"
+  sh "rsync -avzP --delete Rakefile #{PRESENTATION}{.rst,/} voltz:/var/www/html/sths/#{PRESENTATION}/"
 end
 
 desc "Automatically rebuild presentation"
